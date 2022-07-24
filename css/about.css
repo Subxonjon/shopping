@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lobster", cursive;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(151, 192, 197);
+    padding: 20px 30px;
+    position: sticky;
+    top: 0;
+    height: 70px;
+    z-index: 999;
+  }
+  .logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo img{
+    width: 64px;
+}
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  nav ul li {
+    padding: 0 15px;
+    margin: 0 10px;
+    border-bottom: 3px solid transparent;
+  }
+  nav ul li:hover {
+    border-color: white;
+    color: white;
+  }
+  nav input {
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid blue;
+  }
+  
+.contact {
+    width: 60%;
+    border: 5px dashed rgb(83, 156, 138);
+    margin: 80px auto;
+    text-align: center;
+  }
+  input {
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid burlywood;
+  }
+  .half {
+    width: 47%;
+    margin: 10px;
+  }
+  .full {
+    width: 90%;
+    margin: 20px 0;
+  }
+  textarea {
+    resize: none;
+    width: 90%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid burlywood;
+    height: 100px;
+  }
+  button {
+    width: 90%;
+    margin: 8px;
+    background-color: lightblue;
+    border: 2px solid burlywood;
+    padding: 8px;
+    color: brown;
+    font-size: 20px;
+  }
+  .media {
+    position: relative;
+  }
+  .media video {
+    width: 100%;
+  }
+  .media .text {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    width: 60%;
+    text-align: center;
+    color: rgb(140, 200, 207);
+    font-size: 30px;
+  }
+  .text h1 {
+    text-shadow: 2px 2px white, 4px 4px black;
+  }
+  .text p {
+    text-shadow: 2px 2px white, 4px 4px black;
+  }
+  
